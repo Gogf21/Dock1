@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif; /* Шрифт для всего документа */
+    background-color: #f4f4f4; /* Цвет фона */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.container {
+    max-width: 800px; /* Максимальная ширина контейнера */
+    margin: 50px auto; /* Центрирование контейнера */
+    padding: 20px; /* Внутренние отступы */
+    background-color: #fff; /* Цвет фона контейнера */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+    border-radius: 8px; /* Скругление углов */
+}
+
+h1 {
+    color: #333; /* Цвет заголовка */
+}
+
+p {
+    color: #666; /* Цвет текста */
+}
+
+.my-button {
+    padding: 10px 15px; /* Внутренние отступы кнопки */
+    background-color: #28a745; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Скругление углов кнопки */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.my-button:hover {
+    background-color: #218838; /* Цвет фона кнопки при наведении */
+}
